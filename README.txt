@@ -35,6 +35,8 @@ de Linux.
 
 $ sudo nano ping.sh 
 
+Agregar en las lineas 5 y 8 las direccion IP o el segmento de red indicanto la mascara, ejemplo, 192.168.2.1/24
+
 # Ejecución del script
 
 La ejecución el script se debe utilizar la notación < ./ > (punto-diagonal-slash), para que efectúe 
@@ -42,7 +44,7 @@ la búsqueda del script en el directorio actual en vez de ir a buscar en todos l
 aparecen en $PATH, de la siguiente manera < ./mantenimiento.sh >, dependiendo de la versión de Linux, 
 solicitara el uso el comando < sudo > para ejecutar programas con los privilegios de seguridad de super usuario.
 
-$ sudo ./ping.sh <dirección IP de un host ó segmento de red >
+$ sudo ./ping.sh 
 
 # Cuando a aparezca en pantalla el reporte, el paso siguiente es detener el proceso.
 
