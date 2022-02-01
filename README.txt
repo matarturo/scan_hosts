@@ -35,7 +35,7 @@ de Linux.
 
 $ sudo nano ping.sh 
 
-Agregar en las lineas 5 y 8 las direccion IP o el segmento de red indicanto la mascara, ejemplo, 192.168.2.1/24
+Agregar en las lineas 15 y 17 las direccion IP (192.168.0.1) o el segmento de red indicanto la mascara (192.168.2.1/24)
 
 # Ejecución del script
 
